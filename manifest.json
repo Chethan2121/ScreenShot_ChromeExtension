@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Screenshot Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension to capture screenshots.",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_popup": "https://your-project.vercel.app/popup.html",  
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
